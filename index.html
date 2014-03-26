@@ -1,79 +1,172 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="NYU Class Page Old : " />
+<head>
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<meta charset= "UTF-8"/>
+<title> My Awesome Homepage </title>
+<link rel="stylesheet" type="text/css" href="indexstyles.css">
+<!--
+<style>
+  #box{background-color: #E9FFC7;}
+  #main{background-color: #ffffff;}
+  body{background-image: url('backgroundrays.jpg');
+    background-size: 35%;}
+</style>
+-->
 
-    <title>NYU Class Page Old</title>
-  </head>
+<!--
+<script language="javascript">
 
-  <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/natalieweesh/nyu-class-page-old">View on GitHub</a>
+function ResizeToInner (w, h, x, y) {
+  // make sure we have a final x/y value
+  // pick one or the other windows value, not both
+  if (x==undefined) x = window.screenLeft || window.screenX;
+  if (y==undefined) y = window.screenTop || window.screenY;
+  // for now, move the window to the top left
+  // then resize to the maximum viewable dimension possible
+  window.moveTo(0,0);
+  window.resizeTo(screen.availWidth,screen.availHeight);
+  // now that we have set the browser to it's biggest possible size
+  // get the inner dimensions.  the offset is the difference.
+  var inner = GetInnerSize();
+  var ox = screen.availWidth-inner[0];
+  var oy = screen.availHeight-inner[1];
+  // now that we have an offset value, size the browser
+  // and position it
+  window.resizeTo(w+ox, h+oy);
+  window.moveTo(x,y);
+}
 
-          <h1 id="project_title">NYU Class Page Old</h1>
-          <h2 id="project_tagline"></h2>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/natalieweesh/nyu-class-page-old/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/natalieweesh/nyu-class-page-old/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+var popupWindow = null;
+function centeredPopup(url,winName,w,h,scroll){
+LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+settings =
+'height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable'
+popupWindow = window.open(url,winName,settings)
+ResizeToInner();
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+}
+</script>
+-->
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<script type="text/javascript">
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37060959-1']);
+  _gaq.push(['_trackPageview']);
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+</script>
+</head>
 
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<body>
+<div id="box">
 
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+<div id="banner">
+<img src="homeheader.jpg" alt="homepage banner" title="Welcome Home"/>
+</div>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
+<div id="nav">
+<ul>
+  <li><a href="index.html">About Me</a></li>
+  <li><a href="index2.html">My Hometown</a></li>
+  <li><a href="index3.html">Singaporean Food</a></li>
+</ul>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">NYU Class Page Old maintained by <a href="https://github.com/natalieweesh">natalieweesh</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+</div>
 
-    
 
-  </body>
+
+<div id="sidebarL">
+<h4>Recent Assignments</h4>
+<p><em>Here are links to my most recent homework assignments.</em></p>
+<ul>
+  <li><a href="photoshoppic.jpg">Self Portrait</a></li>
+  <li><a href="indesignpic.pdf">Cereal Box</a></li>
+  <li><a href="index4.html">Animated GIF</a></li>
+  <li><a href="forestanimation.html">Flash Animation</li>
+  <li><a href="../dreamweaverassignment/index.html">New Website: In the Mood for Food</a></li>
+</ul>
+<h6><a href="http://cs.nyu.edu/courses/fall12/CSCI-UA.0004-006/index.html">COURSE HOMEPAGE</a></h6>
+</div>
+
+<div id="sidebarR">
+<h4>Recommended Sites</h4>
+<p><em>These are some sites I recommend you visit.</em></p>
+<ul>
+  <li><a href="http://www.imslp.org">Music Scores</a></li>
+  <li><a href="http://www.w3schools.com">Learn HTML and CSS</a></li>
+  <li><a href="http://www.ft.com/life-arts/lunch-with-the-ft">Some Light Reading</a></li>
+</ul>
+<br/>
+<h4>My Other Sites</h4>
+<ul>
+  <li><a href="http://files.nyu.edu/nsw236/public">The Best Espressos in NYC</a></li>
+  <li><a href="http://natalieweesh.wix.com/main">Photography Portfolio</a></li>
+  <li><a href="http://nataliewee.carbonmade.com/">Doodle Portfolio</a></li>
+</ul>
+</div>
+
+<div id="main">
+<h1> Welcome to Natalie's website for Intro to Web Design and Computer Principles </h1>
+
+<p>I am in the Monday-Wednesday section of this course, CSCI-UA-0004-06 11-12:15 am, in Warren Weaver Hall room 101.</p>
+
+<h2> About Me: </h2>
+
+<p>My majors are marketing and finance.  My hometown is Short Hills, NJ.  My reason for taking this course is <em>just for fun</em>.</p>
+
+<p> So far I prefer Photoshop to InDesign.  <i>Check this homepage regularly for links to my assignments for this class</i>.</p>
+
+<hr/>
+
+
+<h3>Assignments:</h3>
+<ol>
+  <li><a href="photoshoppic.jpg">Photoshop Assignment</a></li>
+  <li><a href="indesignpic.pdf">InDesign Assignment</a></li>
+  <li><a href="index2.html">My Hometown</a></li>
+  <li><a href="index3.html">Singaporean Food</a></li>
+  <li><a href="index4.html">Animated GIF Assignment</a></li>
+  <li><a href="forestanimation.html">Flash Animation</a></li>
+<!--  <li><a href="forestanimation.html" onclick="centeredPopup(this.href, 'myWindow', '550', '400', 'yes');return false">Flash Animation</a></li>
+-->
+  <li><a href="dreamweaverassignment/index.html">Dreamweaver Assignment</a></li>
+</ol>
+
+
+<hr/>
+
+
+
+<br/>
+
+<h4>Class Schedule:</h4>
+<br/>
+<table border=1>
+  <tr><th>Day</th><th>Time</th><th>Room</th></tr>
+  <tr><td>Monday</td><td>11:00-12:15</td><td>101</td></tr>
+  <tr><td>Wednesday</td><td>11:00-12:15</td><td>101</td></tr>
+</table>
+
+
+<br/>
+<img class="bigpic" src="rockstack.jpg" alt="Rock Tower" title="Aruba"/>
+</div>
+</div>
+</body>
+
 </html>
